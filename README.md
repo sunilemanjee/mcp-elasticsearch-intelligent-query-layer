@@ -90,6 +90,7 @@ The Elasticsearch MCP Server supports configuration options to connect to your E
 2. **Install Dependencies**
    ```bash
    npm install
+   npm install axios
    ```
 
 3. **Build the Project**
@@ -112,11 +113,15 @@ The Elasticsearch MCP Server supports configuration options to connect to your E
          ],
          "env": {
            "ES_URL": "your-elasticsearch-url",
-           "ES_API_KEY": "your-api-key"
+           "ES_API_KEY": "your-api-key",
+            "GOOGLE_MAPS_API_KEY": "xxxx",  //your google maps api key
+            "PROPERTIES_SEARCH_TEMPLATE": "properties-search-template",
+            "ELSER_INFERENCE_ID": ".elser-2-elasticsearch" //change to your elser endpoint name
          }
        }
      }
    }
+       
    ```
 
 5. **Debugging with MCP Inspector**
