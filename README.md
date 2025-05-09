@@ -25,7 +25,9 @@ This server connects agents to your Elasticsearch data using the Model Context P
 
 ## Demo
 
-https://github.com/user-attachments/assets/5dd292e1-a728-4ca7-8f01-1380d1bebe0c
+
+https://github.com/user-attachments/assets/3a7d24c6-5cf9-4dad-897f-9a7f15ccb770
+
 
 ## Installation & Setup
 
